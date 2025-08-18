@@ -28,6 +28,7 @@ import com.example.composebasicslab.components.CenteredButtonWithSpacer
 import com.example.composebasicslab.components.ClickableFavoriteIcon
 import com.example.composebasicslab.components.ColoredCardList
 import com.example.composebasicslab.components.CommentBox
+import com.example.composebasicslab.components.DarkModeSwitch
 import com.example.composebasicslab.components.DisabledButtonExample
 import com.example.composebasicslab.components.FavoriteIconButton
 import com.example.composebasicslab.components.FavoriteIconSelector
@@ -53,6 +54,7 @@ import com.example.composebasicslab.components.NameInputField_Outlined
 import com.example.composebasicslab.components.NameInputField_TextField
 import com.example.composebasicslab.components.NameListWithIndex
 import com.example.composebasicslab.components.NumberedCardList
+import com.example.composebasicslab.components.PizzaSizeSelector
 import com.example.composebasicslab.components.RoundedImageWithBorder
 import com.example.composebasicslab.components.SearchBarWithFilter
 import com.example.composebasicslab.components.SimpleButtonExample
@@ -62,6 +64,7 @@ import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
 import com.example.composebasicslab.components.StyledGrid
+import com.example.composebasicslab.components.TaskCheckbox
 import com.example.composebasicslab.components.TaskListWithIcons
 import com.example.composebasicslab.components.TextSpacerColumn
 import com.example.composebasicslab.components.TextWithButtonColumn
@@ -154,7 +157,11 @@ class MainActivity : ComponentActivity() {
 //                        StyledGrid()
 //                        SimpleCounter()
 //                        ToggleButton()
-                        LivePreviewText()
+//                        LivePreviewText()
+//                        TaskCheckbox()
+//                        DarkModeSwitch()
+                        PizzaSizeSelector()
+
                     }
                 }
             }
