@@ -48,6 +48,7 @@ import com.example.composebasicslab.components.ImageWithErrorAndPlaceholder
 import com.example.composebasicslab.components.ImageWithOverlayText
 import com.example.composebasicslab.components.InteractiveCardWithButton
 import com.example.composebasicslab.components.LayeredTextBox
+import com.example.composebasicslab.components.LivePreviewText
 import com.example.composebasicslab.components.NameInputField_Outlined
 import com.example.composebasicslab.components.NameInputField_TextField
 import com.example.composebasicslab.components.NameListWithIndex
@@ -56,6 +57,7 @@ import com.example.composebasicslab.components.RoundedImageWithBorder
 import com.example.composebasicslab.components.SearchBarWithFilter
 import com.example.composebasicslab.components.SimpleButtonExample
 import com.example.composebasicslab.components.SimpleCardList
+import com.example.composebasicslab.components.SimpleCounter
 import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
@@ -64,6 +66,7 @@ import com.example.composebasicslab.components.TaskListWithIcons
 import com.example.composebasicslab.components.TextSpacerColumn
 import com.example.composebasicslab.components.TextWithButtonColumn
 import com.example.composebasicslab.components.TextWithDivider
+import com.example.composebasicslab.components.ToggleButton
 import com.example.composebasicslab.components.TwoButtonColumn
 import com.example.composebasicslab.components.VerticalIconsColumn
 import com.example.composebasicslab.components.VerticalImageCard
@@ -148,8 +151,10 @@ class MainActivity : ComponentActivity() {
 //                        ImageCardList()
 //                        SimpleGrid()
 //                        AdaptiveGrid()
-                        StyledGrid()
-
+//                        StyledGrid()
+//                        SimpleCounter()
+//                        ToggleButton()
+                        LivePreviewText()
                     }
                 }
             }
