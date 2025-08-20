@@ -29,6 +29,7 @@ import com.example.composebasicslab.components.ClickableFavoriteIcon
 import com.example.composebasicslab.components.ColoredCardList
 import com.example.composebasicslab.components.CommentBox
 import com.example.composebasicslab.components.DarkModeSwitch
+import com.example.composebasicslab.components.DeleteConfirmationDialog
 import com.example.composebasicslab.components.DisabledButtonExample
 import com.example.composebasicslab.components.FavoriteIconButton
 import com.example.composebasicslab.components.FavoriteIconSelector
@@ -61,8 +62,10 @@ import com.example.composebasicslab.components.SimpleButtonExample
 import com.example.composebasicslab.components.SimpleCardList
 import com.example.composebasicslab.components.SimpleCounter
 import com.example.composebasicslab.components.SimpleGrid
+import com.example.composebasicslab.components.SimpleSnackbar
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
+import com.example.composebasicslab.components.SnackbarWithAction
 import com.example.composebasicslab.components.StyledGrid
 import com.example.composebasicslab.components.TaskCheckbox
 import com.example.composebasicslab.components.TaskListWithIcons
@@ -160,7 +163,10 @@ class MainActivity : ComponentActivity() {
 //                        LivePreviewText()
 //                        TaskCheckbox()
 //                        DarkModeSwitch()
-                        PizzaSizeSelector()
+//                        PizzaSizeSelector()
+//                        DeleteConfirmationDialog()
+//                        SimpleSnackbar()
+                        SnackbarWithAction()
 
                     }
                 }
