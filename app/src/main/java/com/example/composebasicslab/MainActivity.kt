@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import com.example.composebasicslab.components.AdaptiveGrid
 import com.example.composebasicslab.components.AlternatingBackgroundList
 import com.example.composebasicslab.components.BasicAsyncImage
+import com.example.composebasicslab.components.BasicScaffold
 import com.example.composebasicslab.components.ButtonDividerColumn
 import com.example.composebasicslab.components.ButtonRow
 import com.example.composebasicslab.components.ButtonRowExample
@@ -168,7 +169,8 @@ class MainActivity : ComponentActivity() {
 //                        DeleteConfirmationDialog()
 //                        SimpleSnackbar()
 //                        SnackbarWithAction()
-                        SimpleToast()
+//                        SimpleToast()
+                        BasicScaffold()
 
                     }
                 }
