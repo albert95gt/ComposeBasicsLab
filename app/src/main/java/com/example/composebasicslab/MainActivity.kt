@@ -65,6 +65,7 @@ import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleSnackbar
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
+import com.example.composebasicslab.components.SimpleToast
 import com.example.composebasicslab.components.SnackbarWithAction
 import com.example.composebasicslab.components.StyledGrid
 import com.example.composebasicslab.components.TaskCheckbox
@@ -166,7 +167,8 @@ class MainActivity : ComponentActivity() {
 //                        PizzaSizeSelector()
 //                        DeleteConfirmationDialog()
 //                        SimpleSnackbar()
-                        SnackbarWithAction()
+//                        SnackbarWithAction()
+                        SimpleToast()
 
                     }
                 }
