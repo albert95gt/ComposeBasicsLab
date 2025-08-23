@@ -63,6 +63,7 @@ import com.example.composebasicslab.components.SimpleButtonExample
 import com.example.composebasicslab.components.SimpleCardList
 import com.example.composebasicslab.components.SimpleCounter
 import com.example.composebasicslab.components.SimpleGrid
+import com.example.composebasicslab.components.SimpleNavigationApp
 import com.example.composebasicslab.components.SimpleSnackbar
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
@@ -170,7 +171,8 @@ class MainActivity : ComponentActivity() {
 //                        SimpleSnackbar()
 //                        SnackbarWithAction()
 //                        SimpleToast()
-                        BasicScaffold()
+//                        BasicScaffold()
+                        SimpleNavigationApp()
 
                     }
                 }

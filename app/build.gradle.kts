@@ -41,6 +41,9 @@ android {
 
 dependencies {
 
+    val nav_version = "2.9.3"
+
+    implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("androidx.compose.ui:ui-graphics:1.4.3")
     implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("androidx.compose.material3:material3:1.2.1")
