@@ -32,6 +32,7 @@ import com.example.composebasicslab.components.CommentBox
 import com.example.composebasicslab.components.DarkModeSwitch
 import com.example.composebasicslab.components.DeleteConfirmationDialog
 import com.example.composebasicslab.components.DisabledButtonExample
+import com.example.composebasicslab.components.DynamicDropdownMenu
 import com.example.composebasicslab.components.FavoriteIconButton
 import com.example.composebasicslab.components.FavoriteIconSelector
 import com.example.composebasicslab.components.FloatingActionButtonExample
@@ -62,6 +63,7 @@ import com.example.composebasicslab.components.SearchBarWithFilter
 import com.example.composebasicslab.components.SimpleButtonExample
 import com.example.composebasicslab.components.SimpleCardList
 import com.example.composebasicslab.components.SimpleCounter
+import com.example.composebasicslab.components.SimpleDropdownMenu
 import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleNavigationApp
 import com.example.composebasicslab.components.SimpleSnackbar
@@ -172,8 +174,9 @@ class MainActivity : ComponentActivity() {
 //                        SnackbarWithAction()
 //                        SimpleToast()
 //                        BasicScaffold()
-                        SimpleNavigationApp()
-
+//                        SimpleNavigationApp()
+//                        SimpleDropdownMenu()
+                        DynamicDropdownMenu()
                     }
                 }
             }
