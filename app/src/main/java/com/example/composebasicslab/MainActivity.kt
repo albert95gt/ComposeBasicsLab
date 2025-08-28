@@ -25,6 +25,7 @@ import com.example.composebasicslab.components.BasicScaffold
 import com.example.composebasicslab.components.ButtonDividerColumn
 import com.example.composebasicslab.components.ButtonRow
 import com.example.composebasicslab.components.ButtonRowExample
+import com.example.composebasicslab.components.CategorizedColorDropdown
 import com.example.composebasicslab.components.CenteredButtonWithSpacer
 import com.example.composebasicslab.components.ClickableFavoriteIcon
 import com.example.composebasicslab.components.ColoredCardList
@@ -64,6 +65,7 @@ import com.example.composebasicslab.components.SimpleButtonExample
 import com.example.composebasicslab.components.SimpleCardList
 import com.example.composebasicslab.components.SimpleCounter
 import com.example.composebasicslab.components.SimpleDropdownMenu
+import com.example.composebasicslab.components.SimpleExposedDropdownMenuBox
 import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleNavigationApp
 import com.example.composebasicslab.components.SimpleSnackbar
@@ -79,6 +81,7 @@ import com.example.composebasicslab.components.TextWithButtonColumn
 import com.example.composebasicslab.components.TextWithDivider
 import com.example.composebasicslab.components.ToggleButton
 import com.example.composebasicslab.components.TwoButtonColumn
+import com.example.composebasicslab.components.TwoStepColorDropdown
 import com.example.composebasicslab.components.VerticalIconsColumn
 import com.example.composebasicslab.components.VerticalImageCard
 import com.example.composebasicslab.components.VerticalTextColumn
@@ -176,7 +179,11 @@ class MainActivity : ComponentActivity() {
 //                        BasicScaffold()
 //                        SimpleNavigationApp()
 //                        SimpleDropdownMenu()
-                        DynamicDropdownMenu()
+//                        DynamicDropdownMenu()
+//                        SimpleExposedDropdownMenuBox()
+//                        CategorizedColorDropdown()
+                        TwoStepColorDropdown()
+
                     }
                 }
             }
