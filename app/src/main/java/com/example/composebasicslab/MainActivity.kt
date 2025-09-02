@@ -51,6 +51,8 @@ import com.example.composebasicslab.components.ImageWithBottomTextBox
 import com.example.composebasicslab.components.ImageWithCircleShapeAndShadow
 import com.example.composebasicslab.components.ImageWithErrorAndPlaceholder
 import com.example.composebasicslab.components.ImageWithOverlayText
+import com.example.composebasicslab.components.IngredientsCounter
+import com.example.composebasicslab.components.IngredientsListCounter
 import com.example.composebasicslab.components.InteractiveCardWithButton
 import com.example.composebasicslab.components.LayeredTextBox
 import com.example.composebasicslab.components.LivePreviewText
@@ -68,10 +70,12 @@ import com.example.composebasicslab.components.SimpleDropdownMenu
 import com.example.composebasicslab.components.SimpleExposedDropdownMenuBox
 import com.example.composebasicslab.components.SimpleGrid
 import com.example.composebasicslab.components.SimpleNavigationApp
+import com.example.composebasicslab.components.SimpleSlider
 import com.example.composebasicslab.components.SimpleSnackbar
 import com.example.composebasicslab.components.SimpleStarIcon
 import com.example.composebasicslab.components.SimpleTextCard
 import com.example.composebasicslab.components.SimpleToast
+import com.example.composebasicslab.components.SliderWithSteps
 import com.example.composebasicslab.components.SnackbarWithAction
 import com.example.composebasicslab.components.StyledGrid
 import com.example.composebasicslab.components.TaskCheckbox
@@ -82,9 +86,11 @@ import com.example.composebasicslab.components.TextWithDivider
 import com.example.composebasicslab.components.ToggleButton
 import com.example.composebasicslab.components.TwoButtonColumn
 import com.example.composebasicslab.components.TwoStepColorDropdown
+import com.example.composebasicslab.components.TwoWayCounter
 import com.example.composebasicslab.components.VerticalIconsColumn
 import com.example.composebasicslab.components.VerticalImageCard
 import com.example.composebasicslab.components.VerticalTextColumn
+import com.example.composebasicslab.components.VolumeSlider
 import com.example.composebasicslab.ui.theme.ComposeBasicsLabTheme
 
 class MainActivity : ComponentActivity() {
@@ -182,8 +188,13 @@ class MainActivity : ComponentActivity() {
 //                        DynamicDropdownMenu()
 //                        SimpleExposedDropdownMenuBox()
 //                        CategorizedColorDropdown()
-                        TwoStepColorDropdown()
-
+//                        TwoStepColorDropdown()
+//                        SimpleSlider()
+//                        SliderWithSteps()
+//                        VolumeSlider()
+//                        TwoWayCounter()
+//                        IngredientsCounter()
+                        IngredientsListCounter()
                     }
                 }
             }
